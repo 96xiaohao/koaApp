@@ -1,0 +1,53 @@
+127.0.0.1 -- Wed Oct 31 2018 17:22:40 GMT+0800 (China Standard Time) -- POST -- /addUser?= -- 22ms
+	127.0.0.1 -- Wed Oct 31 2018 17:23:15 GMT+0800 (China Standard Time) -- POST -- /addUser?= -- 5ms
+	127.0.0.1-- 500 -- Wed Oct 31 2018 17:25:22 GMT+0800 (China Standard Time) -- POST -- /addUser?= -- 21ms
+	reqIp:127.0.0.1-- status:500 
+                -- reqTime:Wed Oct 31 2018 17:27:34 GMT+0800 (China Standard Time) -- reqMethod:POST --
+                 reqUrl:/addUser?= -- resTime:26ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Wed Oct 31 2018 17:28:07 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:19ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Wed Oct 31 2018 17:52:55 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:24ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Wed Oct 31 2018 17:53:27 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:21ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Wed Oct 31 2018 17:59:33 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:4ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Wed Oct 31 2018 17:59:51 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:20ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Wed Oct 31 2018 18:00:12 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:1ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Wed Oct 31 2018 18:00:54 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:17ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 15:39:11 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:25ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 15:39:49 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:2ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 15:39:59 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:24ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 15:41:44 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:29ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 15:46:33 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:12171ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 15:50:24 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:22381ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 16:09:59 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:37ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 16:11:40 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:25ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 16:12:53 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:20998ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 16:15:01 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:16894ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 16:20:17 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:15623ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 16:22:02 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:10188ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 16:23:45 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser?= -- resTime:16499ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Nov 01 2018 16:45:42 GMT+0800 (China Standard Time) -- reqMethod:DELETE -- reqUrl:/deleteUser?id=1 -- resTime:17ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Nov 01 2018 16:46:30 GMT+0800 (China Standard Time) -- reqMethod:DELETE -- reqUrl:/deleteUser -- resTime:23ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Nov 01 2018 16:46:46 GMT+0800 (China Standard Time) -- reqMethod:DELETE -- reqUrl:/delUser -- resTime:17ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 16:56:48 GMT+0800 (China Standard Time) -- reqMethod:DELETE -- reqUrl:/delUser -- resTime:46085ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Nov 01 2018 17:14:33 GMT+0800 (China Standard Time) -- reqMethod:PUT -- reqUrl:/updateUser -- resTime:45ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Nov 01 2018 17:19:40 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/updateUser -- resTime:25ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Nov 01 2018 17:19:45 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/updateUser -- resTime:2ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Nov 01 2018 17:23:40 GMT+0800 (China Standard Time) -- reqMethod:PUT -- reqUrl:/updateUser -- resTime:38ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Nov 01 2018 17:24:50 GMT+0800 (China Standard Time) -- reqMethod:PUT -- reqUrl:/updateUser -- resTime:18ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Nov 01 2018 17:30:12 GMT+0800 (China Standard Time) -- reqMethod:PUT -- reqUrl:/updateUser -- resTime:41ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Nov 01 2018 17:53:12 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser/selectUser -- resTime:6ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Nov 01 2018 17:54:58 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/addUser/selectUser -- resTime:5ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Nov 01 2018 17:55:19 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/addUser/selectUser?id=5 -- resTime:1ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Nov 01 2018 17:55:21 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/addUser/selectUser?id=5 -- resTime:1ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Nov 01 2018 17:55:40 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/selectUser?id=5 -- resTime:6ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Nov 01 2018 18:11:57 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/selectUser?id=5 -- resTime:17ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Nov 01 2018 18:11:58 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/selectUser?id=5 -- resTime:6ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 18:12:16 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/selectUser?id=5 -- resTime:13ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 18:12:34 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/selectUser?id=5 -- resTime:2ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 18:12:36 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/selectUser?id=5 -- resTime:1ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 18:12:51 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/selectUser?id=5 -- resTime:11ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 18:12:51 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/selectUser?id=5 -- resTime:2ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Nov 01 2018 18:35:13 GMT+0800 (China Standard Time) -- reqMethod:DELETE -- reqUrl:/delUser -- resTime:32ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 18:35:47 GMT+0800 (China Standard Time) -- reqMethod:DELETE -- reqUrl:/delUser -- resTime:67ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 18:35:52 GMT+0800 (China Standard Time) -- reqMethod:PUT -- reqUrl:/updateUser -- resTime:22ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 18:35:57 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/selectUser?id=5 -- resTime:1ms
+	
