@@ -88,6 +88,40 @@ class UserController {
 
     }
 
+    /**
+     * 用户登录
+      * @param ctx
+     * @returns {Promise<void>}
+     */
+    static async userLogin(ctx){
+        const{id,username} = ctx.request.body;
+        if(!id || !username) throw new Error("请求数据不完整");
+
+        let flag = await UserService.select(userId)
+
+        if (flag) ctx.body = {};
+
+        ctx.session.user = username;
+
+        ctx.body = {
+            status : 0,
+            message : "用户登录成功",
+            userMessage : ctx.request.body,
+        }
+    }
+
+    static async userLoginOut(ctx){
+        const{id, username} = ctx.request.body;
+        if(!id || !username) throw new Error("请求数据不完整");
+
+        if (ctx.session.user == username){
+                
+        }
+
+
+
+    }
+
 }
 
 module.exports = UserController;
