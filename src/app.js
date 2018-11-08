@@ -10,11 +10,17 @@ const onerror = require('koa-onerror')
 const router = require('./routes/index');
 // const router = require('koa-router')();
 const config = require('./configs/appConfig');
+const sessionConfig = require('./configs/appConfig').sessionConfig;
 const baseConfig = require('./configs/baseConfig');
 const errorTrance = require('./middleware/errorTrace');
 const myLogger = require('./middleware/Logger');
+// const session = require('./middleware/session');
+const session = require('koa-session');
 
 const app = new Koa();
+//开启session
+app.keys = ['my secret hurr'];  //session 秘钥
+app.use(session(sessionConfig, app));
 
 //使用日志中间件，放在前面
 app.use(myLogger.getLogger(baseConfig));
@@ -38,6 +44,6 @@ app.listen(config.port,(err) =>{
     }
 });
 
-// module.exports = app;
+module.exports = app;
 
 

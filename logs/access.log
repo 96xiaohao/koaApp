@@ -1,6 +1,6 @@
 127.0.0.1 -- Wed Oct 31 2018 17:22:40 GMT+0800 (China Standard Time) -- POST -- /addUser?= -- 22ms
 	127.0.0.1 -- Wed Oct 31 2018 17:23:15 GMT+0800 (China Standard Time) -- POST -- /addUser?= -- 5ms
-	127.0.0.1-- 500 -- Wed Oct 31 2018 17:25:22 GMT+0800 (China Standard Time) -- POST -- /addUser?= -- 21ms
+127.0.0.1-- 500 -- Wed Oct 31 2018 17:25:22 GMT+0800 (China Standard Time) -- POST -- /addUser?= -- 21ms
 	reqIp:127.0.0.1-- status:500 
                 -- reqTime:Wed Oct 31 2018 17:27:34 GMT+0800 (China Standard Time) -- reqMethod:POST --
                  reqUrl:/addUser?= -- resTime:26ms
