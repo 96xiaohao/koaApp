@@ -50,4 +50,5 @@
 	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 18:35:47 GMT+0800 (China Standard Time) -- reqMethod:DELETE -- reqUrl:/delUser -- resTime:67ms
 	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 18:35:52 GMT+0800 (China Standard Time) -- reqMethod:PUT -- reqUrl:/updateUser -- resTime:22ms
 	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Nov 01 2018 18:35:57 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/selectUser?id=5 -- resTime:1ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Tue Nov 20 2018 16:10:44 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/ -- resTime:20ms
 	

@@ -2,7 +2,7 @@
  * 用户模块块控制器
  */
 
-const UserService = require('../service/UserService');
+const UserService = require('../../service/user/UserService');
 
 class UserController {
     /**

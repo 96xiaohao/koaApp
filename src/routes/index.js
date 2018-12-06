@@ -1,18 +1,26 @@
+'use strict'
+
 const router = require('koa-router')();
-const UserController = require('../controllers/UserController');
+const Controller = require('../controllers');
 
-router.get('/a',(ctx,next) =>{
-    console.log("hello");
-});
 
-router.get('/', function (ctx, next) {
-    ctx.body="Hello Koa";
-});
+router.prefix('/store');         //路由前缀
 
-router.post('/addUser',UserController.addUser);
-router.delete('/delUser',UserController.delUser);
-router.put('/updateUser',UserController.updateUser);
-router.get('/selectUser',UserController.selectUser);
+router.use('/user', require('./user').routes());  //加载user子路由
+
+
+//一些公共路由
+router.get('/state', Controller.ClassSupervision.getState);
+
+
+// router.get('/a',(ctx,next) =>{
+//     console.log("hello");
+// });
+//
+// router.get('/', function (ctx, next) {
+//     ctx.body="Hello Koa";
+// });
+
 
 
 

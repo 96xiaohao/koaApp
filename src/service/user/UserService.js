@@ -1,8 +1,7 @@
 'use strict';
 
-const user = require('../db/user');
 const _ = require('lodash');
-const userOP = require('../db/user');
+const userOP = require('../../db/user');
 
 class UserService {
 

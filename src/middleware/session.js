@@ -11,4 +11,4 @@
 // };
 // // app.use(session(CONFIG, app));
 
-// module.exports = CONFIG;
+module.exports = CONFIG;
