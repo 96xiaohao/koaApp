@@ -1,3 +1,8 @@
 'use strict'
 
-const UserOp = require('UserController')
+const UserOp = require('./UserController')
+
+
+module.exports = {
+    UserOp
+}
