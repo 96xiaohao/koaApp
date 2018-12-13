@@ -6,7 +6,9 @@ const Controller = require('../controllers');
 
 router.prefix('/store');         //路由前缀
 
+
 router.use('/user', require('./user').routes());  //加载user子路由
+router.use('/goods',require('./goods').routes());
 
 
 // 一些公共路由

@@ -34,7 +34,7 @@ class UserController {
     static async delUser(ctx){
         const {id: userId} = ctx.request.body;  //注意只有一个数时，用解析赋值要指定字段
 
-        if (!userId) throw new Error("请求信息不完整")
+        if (!userId) throw new Error("请求信息不完整");
 
         let flag = await UserService.delete(userId)
         if (flag) ctx.body = {}

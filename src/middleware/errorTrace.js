@@ -14,7 +14,7 @@ function errorTrace() {
 
             ctx.status = err.status || 500;
 
-            if (ctx.status >= 500 || err.name === dValidationError){
+            if (ctx.status >= 500 || err && err.name === 'ValidationError'){
                 console.error('request url:',  ctx.url);
                 console.error('request header:' , ctx.header);
                 console.error('request body:', ctx.request.body);
