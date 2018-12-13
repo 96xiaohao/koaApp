@@ -315,4 +315,32 @@
 	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 15:31:21 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/goods/edit/promotion -- resTime:40ms
 	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 15:33:44 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/goods/edit/promotion -- resTime:72ms
 	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 15:34:47 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/goods/edit/promotion -- resTime:66ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Dec 13 2018 16:47:15 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/ -- resTime:2ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 16:47:38 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/add/goods -- resTime:10ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 16:50:23 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/add/goods -- resTime:30ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 16:51:09 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/add/goods -- resTime:54ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 16:51:58 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/add/goods -- resTime:37ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 16:52:22 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/add/goods -- resTime:56ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 16:52:46 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/add/goods -- resTime:61ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 16:59:24 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/add/goods -- resTime:77ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Dec 13 2018 17:32:19 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/store/shopcar -- resTime:4ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 17:32:26 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/store/shopcar/list -- resTime:5ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 17:32:32 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/store/shopcar/list?userId=adef0c2a-fcf9-11e8-bd04-078ae836c7b6 -- resTime:42ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 17:32:45 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/store/shopcar/list?userId=adef0c2a-fcf9-11e8-bd04-078ae836c7b6 -- resTime:25ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 17:56:47 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/store/shopcar/list?userId=adef0c2a-fcf9-11e8-bd04-078ae836c7b6 -- resTime:38ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 18:08:10 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/store/shopcar/list?userId=adef0c2a-fcf9-11e8-bd04-078ae836c7b6 -- resTime:49ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 18:20:37 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/add/goods -- resTime:66ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 18:23:41 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/del -- resTime:10ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 18:25:08 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/del -- resTime:10ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 18:25:51 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/del -- resTime:13ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 18:25:53 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/del -- resTime:1ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 18:26:06 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/del -- resTime:1ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 18:26:26 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/del -- resTime:10ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 18:26:56 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/del -- resTime:1ms
+	reqIp:127.0.0.1-- status:500 -- reqTime:Thu Dec 13 2018 18:27:39 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/del -- resTime:10ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Dec 13 2018 18:28:34 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/del -- resTime:100ms
+	reqIp:127.0.0.1-- status:404 -- reqTime:Thu Dec 13 2018 18:30:23 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/del -- resTime:62ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 18:34:03 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/del -- resTime:65ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 18:35:33 GMT+0800 (China Standard Time) -- reqMethod:POST -- reqUrl:/store/shopcar/add/goods -- resTime:41ms
+	reqIp:127.0.0.1-- status:200 -- reqTime:Thu Dec 13 2018 18:35:49 GMT+0800 (China Standard Time) -- reqMethod:GET -- reqUrl:/store/shopcar/list?userId=adef0c2a-fcf9-11e8-bd04-078ae836c7b6 -- resTime:38ms
 	

@@ -7,8 +7,10 @@ const Controller = require('../controllers');
 router.prefix('/store');         //路由前缀
 
 
-router.use('/user', require('./user').routes());  //加载user子路由
-router.use('/goods',require('./goods').routes());
+router.use('/user', require('./user').routes());      //加载用户xh子路由
+router.use('/goods',require('./goods').routes());     //加载商品子路由
+router.use('/shopcar',require('./shopCar').routes()); // 加载购物车子路由
+
 
 
 // 一些公共路由
