@@ -5,9 +5,11 @@
 const User = require('./user/index');
 const Goods = require('./goods/index');
 const shopCar = require('./shopCar/index');
+const order = require('./order/index');
 
 module.exports = {
     User,
     Goods,
-    shopCar
+    shopCar,
+    order
 }

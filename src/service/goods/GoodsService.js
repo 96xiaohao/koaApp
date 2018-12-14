@@ -6,6 +6,19 @@ const assert = require('http-assert');
 
 class GoodsService {
 
+    /**
+     * 添加商品
+     * @param title
+     * @param marketPrice
+     * @param shopPrice
+     * @param promotionPrice
+     * @param imgUrl
+     * @param pressId
+     * @param goodStype
+     * @param inventory
+     * @param name
+     * @returns {Promise<*>}
+     */
     static async insertGoods(title,marketPrice,shopPrice,promotionPrice,imgUrl,pressId,goodStype,inventory,name){
 
         assert(title, 400, "title need!");
@@ -31,6 +44,15 @@ class GoodsService {
             }
     }
 
+    /**
+     * 为商品添加版本信息
+     * @param diffPrice
+     * @param version
+     * @param stock
+     * @param publishTime
+     * @param goodsId
+     * @returns {Promise<*>}
+     */
     static async insertGoodsVersion(diffPrice,version,stock,publishTime,goodsId){
         assert(diffPrice, 400, "diffPrice need!");
         assert(version, 400, "version need!");
@@ -51,6 +73,12 @@ class GoodsService {
 
     }
 
+    /**
+     * 获取商品列表
+     * @param titleN
+     * @param goodsTypeN
+     * @returns {Promise<*>}
+     */
     static async getGoodsListBy(titleN,goodsTypeN){
 
         var sql = `select * from goods`;
@@ -95,6 +123,11 @@ class GoodsService {
 
     }
 
+    /**
+     * 根据商品id获得商品的所有版本信息
+     * @param id
+     * @returns {Promise<*>}
+     */
     static async getVersionDataByGoodsId(id){
         assert(id, 400, "need id !");
         const sql = `select * from version where "goodsId" = '${id}'`;
@@ -109,6 +142,14 @@ class GoodsService {
         }
     }
 
+    /**
+     * 更新商品的促销信息
+     * @param goodsId
+     * @param promotionStartTime
+     * @param promotionEndTime
+     * @param promotionPrice
+     * @returns {Promise<*>}
+     */
     static async updateGoodsPromotion(goodsId,promotionStartTime,promotionEndTime,promotionPrice){
         assert(goodsId, 400, "need goodsId");
         assert(promotionStartTime, 400, "need promotionStartTime");
@@ -128,6 +169,41 @@ class GoodsService {
             console.error("||Error->> |func:(updateGoodsPromotion) errMessage:||",err);
             throw err
         }
+
+    }
+
+    /**
+     * 根据用户id,商品id,版本id,获取商品的详细信息
+     */
+    static async getGoodsNT(userId,goodsId,versionId){
+        assert(userId, 400, "userId need！");
+        assert(goodsId, 400, "goodsId need！");
+        assert(versionId, 400, "versionId need！");
+
+        const sql = `select name,title,version from
+                    goods g join version v on g.id = v."goodsId"
+                    JOIN shopping_cart s on s."versionId" = v.id
+                    where "userId" = '${userId}'
+                    and g.id = '${goodsId}'
+                    and v.id = '${versionId}'`;
+
+        try {
+            const {rows} = await pool.query(sql);
+
+            return rows[0]
+        }catch (err) {
+            console.error("||Error->> |func:(getGoodsNT) errMessage:||",err);
+            throw err
+        }
+
+        // return pool.query(
+        //     `select name,title,version from
+        //              goods g join version v on g.id = v."goodsId"
+        //              JOIN shopping_cart s on s."versionId" = v.id
+        //              where "userId" = '${userId}'
+        //              and g.id = '${goodsId}'
+        //              and v.id = '${versionId}'
+        //  `).then(reslut => reslut.rows);
 
     }
 }
