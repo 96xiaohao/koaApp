@@ -1,6 +1,6 @@
 
 const appConfig = {
-    port : 8086,
+    port : 8888,
     sessionConfig : {
             key: 'koa:sess',   //cookie key (default is koa:sess)
             maxAge: 86400000,  // cookie的过期时间 maxAge in ms (default is 1 days)

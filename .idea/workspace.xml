@@ -2,204 +2,283 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b465c8f-3582-4c7d-b4b2-a0eafaf881d0" name="Default Changelist" comment="增加登录和登出的方法">
-      <change afterPath="$PROJECT_DIR$/src/controllers/order/OrderController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/order/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/order/OrderService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/order/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/0407psbb.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/geo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/log-c-0407.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/log-c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/psbb.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/pscc.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/strtest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/testtool.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/co/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/co/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/goods/GoodsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/goods/GoodsService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/browser/bluebird.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/any.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/assert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/bluebird.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/call_get.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/catch_filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/debuggability.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/direct_resolve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/each.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/finally.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/generators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/join.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/method.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/nodeback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/nodeify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/promise_array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/promisify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/race.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/reduce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/schedule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/settle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/some.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/synchronous_inspection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/thenables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/timers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/using.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/js/release/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crypto/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crypto/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/src/ecdsa-sig-formatter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/src/param-bytes-for-alg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/JsonWebTokenError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/NotBeforeError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/TokenExpiredError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/lib/timespan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/sign.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/verify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jwa/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jwa/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jwa/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jwa/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/lib/data-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/lib/sign-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/lib/tostring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/lib/verify-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jws/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.includes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.includes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.includes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.includes/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isboolean/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isboolean/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isboolean/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isboolean/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isinteger/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isinteger/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isinteger/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isinteger/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isnumber/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isnumber/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isnumber/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isnumber/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isplainobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isplainobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isplainobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isplainobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isstring/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isstring/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isstring/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isstring/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.once/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.once/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.once/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash.once/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ar-dz.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ar-dz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ar-kw.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ar-kw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ar-ly.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ar-ly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ar-ma.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ar-ma.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ar-sa.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ar-sa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/be.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/be.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/bn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/bo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/bo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/bs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/cv.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/cv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/dv.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/dv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/en-ie.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/en-ie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/eo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/es-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/es-us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/fo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/fo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/gom-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/gom-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/gu.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/gu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/hi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/hy-am.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/hy-am.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/jv.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/jv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/kk.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/kk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/kn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/kn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ky.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/me.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/me.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/mk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/mr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/mr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ms-my.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ms-my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/nl-be.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/nl-be.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/pa-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/pa-in.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/sl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/sr-cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/sr-cyrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/ta.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/ta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/te.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/te.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/tzm-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/tzm-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/tzm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/tzm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/locale/uz-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/locale/uz-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/locales.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/locales.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/locales.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/moment-with-locales.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/min/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/min/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/moment.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/moment.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/moment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/create/date-from-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/create/date-from-array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/create/from-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/create/from-array.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/duration/as.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/duration/as.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/duration/constructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/duration/constructor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/duration/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/duration/create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/duration/prototype.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/duration/prototype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/moment/compare.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/moment/compare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/moment/start-end-of.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/moment/start-end-of.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/units/day-of-week.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/units/day-of-week.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/lib/units/week.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/lib/units/week.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ar-dz.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ar-dz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ar-kw.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ar-kw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ar-ly.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ar-ly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ar-ma.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ar-ma.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ar-sa.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ar-sa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/be.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/be.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/bn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/bo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/bo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/bs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/bs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/cv.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/cv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/dv.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/dv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/en-au.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/en-ie.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/en-ie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/eo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/es-us.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/es-us.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/fo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/fo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/gom-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/gom-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/gu.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/gu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/hi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/hy-am.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/hy-am.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/jv.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/jv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/kk.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/kk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/kn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/kn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ky.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ky.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/me.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/me.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/mk.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/mk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/mr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/mr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ms-my.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ms-my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/nl-be.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/nl-be.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/pa-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/pa-in.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/sl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/sr-cyrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/sr-cyrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/ta.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/ta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/te.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/te.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/tzm-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/tzm-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/tzm.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/tzm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/locale/uz-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/locale/uz-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/src/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/src/moment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configs/appConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/appConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/order/OrderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/order/OrderController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/order/OrderService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/order/OrderService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttt.js" beforeDir="false" afterPath="$PROJECT_DIR$/ttt.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1388265475">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="250" value="1" />
-          <entry key="326" value="1" />
-          <entry key="js" value="39" />
-          <entry key="json" value="3" />
-          <entry key="log" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="41" />
-          <entry key="PLAIN_TEXT" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="js" value="8461" />
-          <entry key="txt" value="82" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JavaScript" value="8461" />
-          <entry key="PLAIN_TEXT" value="82" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1373060743">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="js" value="99" />
-          <entry key="key" value="1" />
-          <entry key="log" value="1" />
-          <entry key="sql" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JavaScript" value="99" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SQL" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="js" value="22173" />
-          <entry key="sql" value="70" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JavaScript" value="22173" />
-          <entry key="SQL" value="70" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/shopCar/ShopCarService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-996">
-              <caret line="7" column="22" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controllers/order/OrderController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="155" column="18" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/pg/node_modules/pg-pool/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/http-assert/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/user/UserService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ttt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/goods/GoodsService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-409">
-              <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/db/db.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/order/OrderService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/order.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -208,334 +287,36 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>goods</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>video</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/db/db.js" />
-        <option value="$PROJECT_DIR$/src/configs/dbConfig.js" />
-        <option value="$PROJECT_DIR$/src/db/user.js" />
-        <option value="$PROJECT_DIR$/src/service/UserService.js" />
-        <option value="$PROJECT_DIR$/logs/access.log" />
-        <option value="$PROJECT_DIR$/test/test1.js" />
-        <option value="$PROJECT_DIR$/test/koaSession2Test.js" />
-        <option value="$PROJECT_DIR$/test/koaSession2Test/main.js" />
-        <option value="$PROJECT_DIR$/test/koaSession2Test/Store.js" />
-        <option value="$PROJECT_DIR$/src/configs/appConfig.js" />
-        <option value="$PROJECT_DIR$/src/controllers/UserController.js" />
-        <option value="$PROJECT_DIR$/src/middleware/session.js" />
-        <option value="$PROJECT_DIR$/src/microService/course/index.js" />
-        <option value="$PROJECT_DIR$/src/microService/index.js" />
-        <option value="$PROJECT_DIR$/src/service/user/index.js" />
-        <option value="$PROJECT_DIR$/src/lib/jwtCreat.js" />
-        <option value="$PROJECT_DIR$/database/test.sql" />
-        <option value="$PROJECT_DIR$/database/table.sql" />
-        <option value="$PROJECT_DIR$/src/app.js" />
-        <option value="$PROJECT_DIR$/src/configs/apiStatusCode.js" />
-        <option value="$PROJECT_DIR$/src/lib/crypto.js" />
-        <option value="$PROJECT_DIR$/src/lib/cryptoLib.js" />
-        <option value="$PROJECT_DIR$/src/controllers/goods/goodsController.js" />
-        <option value="$PROJECT_DIR$/src/controllers/user/index.js" />
-        <option value="$PROJECT_DIR$/src/controllers/goods/index.js" />
-        <option value="$PROJECT_DIR$/src/service/goods.js" />
-        <option value="$PROJECT_DIR$/src/service/goods/goodsService.js" />
-        <option value="$PROJECT_DIR$/src/service/goods/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/user.js" />
-        <option value="$PROJECT_DIR$/src/controllers/user/UserController.js" />
-        <option value="$PROJECT_DIR$/src/middleware/errorTrace.js" />
-        <option value="$PROJECT_DIR$/node_modules/koa-bodyparser/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/goods.js" />
-        <option value="$PROJECT_DIR$/src/controllers/goods/GoodsController.js" />
-        <option value="$PROJECT_DIR$/src/controllers/shopCar/index.js" />
-        <option value="$PROJECT_DIR$/src/service/shopCar/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/shopCar.js" />
-        <option value="$PROJECT_DIR$/src/service/shopCar/ShopCarService.js" />
-        <option value="$PROJECT_DIR$/src/controllers/shopCar/ShopCarController.js" />
-        <option value="$PROJECT_DIR$/src/controllers/order.js" />
-        <option value="$PROJECT_DIR$/src/controllers/order/index.js" />
-        <option value="$PROJECT_DIR$/src/controllers/index.js" />
-        <option value="$PROJECT_DIR$/src/service/order/index.js" />
-        <option value="$PROJECT_DIR$/src/service/index.js" />
-        <option value="$PROJECT_DIR$/src/routes/index.js" />
-        <option value="$PROJECT_DIR$/ttt.js" />
-        <option value="$PROJECT_DIR$/src/service/user/UserService.js" />
-        <option value="$PROJECT_DIR$/src/service/goods/GoodsService.js" />
-        <option value="$PROJECT_DIR$/src/routes/order.js" />
-        <option value="$PROJECT_DIR$/src/service/order/OrderService.js" />
-        <option value="$PROJECT_DIR$/src/controllers/order/OrderController.js" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/node_modules/accepts/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/any-promise/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/base64-js/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bindings/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cache-content-type/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cluster-key-slot/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/co-body/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/co/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/const/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/content-disposition/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/content-type/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/cookies/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/copy-to/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/crc/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/crypto/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/deep-equal/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/delegates/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/denque/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/destroy/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ee-first/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/error-inject/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/escape-html/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/flexbuffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/has-ansi/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/http-assert/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/humanize-number/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ieee754/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/inflation/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ioredis/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-class-hotfix/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-generator-function/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/is-type-of/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/isstream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jsonwebtoken/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jwa/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jws/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/kcors/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/keygrip/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-bodyparser/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-compose/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-convert/node_modules/koa-compose/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-convert/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-is-json/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-logger/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-logger/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-onerror/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-router/node_modules/koa-compose/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-router/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-session/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa-session2/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/koa/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/libpq/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.defaults/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.flatten/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.includes/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.isboolean/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.isinteger/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.isnumber/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.isplainobject/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.isstring/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/lodash.once/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/moment/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nan/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/nan/tools/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/on-finished/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/only/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/parseurl/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/passthrough-counter/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pedding/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg-int8/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg-native/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg-types/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/buffer-writer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/packet-reader/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/pg-connection-string/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/pg-pool/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/pg-types/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/pgpass/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/postgres-array/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/postgres-bytea/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/postgres-date/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/postgres-interval/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/split/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/through/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/node_modules/xtend/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/pg/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/postgres-array/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/postgres-bytea/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/postgres-date/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/postgres-interval/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/random-bytes/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/raw-body/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/raw-body/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/redis-commands/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/redis-errors/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/redis-parser/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/standard-as-callback/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/stream-wormhole/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/toidentifier/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/type-is/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/uid-safe/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/unpipe/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/urijs/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/vary/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/xtend/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/ylru/package.json" />
-      <path value="$PROJECT_DIR$/src/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="60" />
-    <option name="y" value="-1417" />
-    <option name="width" value="1670" />
-    <option name="height" value="1068" />
-  </component>
+  <component name="ProjectId" id="1Taz6e3asCw9TC3jw1lZibSXPys" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="koaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koaApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="shopCar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="shopCar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="koaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/zhuxinhao/WebstormProjects/nodeStudy/koaApp/src/service/index.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib" />
       <recent name="$PROJECT_DIR$/src/service/user" />
       <recent name="$PROJECT_DIR$/src/controllers/user" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/lib" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/microService/course" />
     </key>
   </component>
@@ -551,29 +332,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.ttt.js">
-    <configuration name="UserService.js" type="NodeJSConfigurationType" factoryName="Node.js" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/service/user/UserService.js" working-dir="$PROJECT_DIR$/src/service">
+  <component name="RunManager" selected="Node.js.testtool.js">
+    <configuration name="UserService.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/service/user/UserService.js" working-dir="$PROJECT_DIR$/src/service">
       <method v="2" />
     </configuration>
-    <configuration name="app2.js" type="NodeJSConfigurationType" factoryName="Node.js" nameIsGenerated="true" path-to-js-file="app2.js" working-dir="$PROJECT_DIR$">
+    <configuration name="app2.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="app2.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/app.js" working-dir="$PROJECT_DIR$">
+    <configuration name="app.js" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="jwtCreat.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="jwtCreat.js" working-dir="$PROJECT_DIR$/src/lib">
+    <configuration name="excletojson.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="excletojson.js" working-dir="$PROJECT_DIR$/src/lib">
       <method v="2" />
     </configuration>
-    <configuration name="koasessiontest1.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/koasessiontest1.js" working-dir="$PROJECT_DIR$/test">
+    <configuration name="geo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/lib/geo.js" working-dir="$PROJECT_DIR$/src/lib">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/test/koaSession2Test">
+    <configuration name="koasessiontest1.js" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/koasessiontest1.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
-    <configuration name="ttt.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ttt.js" working-dir="$PROJECT_DIR$">
+    <configuration name="tag.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/lib/tag.js" working-dir="$PROJECT_DIR$/src/lib">
       <method v="2" />
     </configuration>
-    <configuration name="user.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" nameIsGenerated="true" path-to-js-file="user.js" working-dir="$PROJECT_DIR$/src/db">
+    <configuration name="testtool.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/lib/testtool.js" working-dir="$PROJECT_DIR$/src/lib">
+      <method v="2" />
+    </configuration>
+    <configuration name="ttt.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="ttt.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="user.js" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v10.13.0/bin/node" nameIsGenerated="true" path-to-js-file="user.js" working-dir="$PROJECT_DIR$/src/db">
       <method v="2" />
     </configuration>
     <list>
@@ -582,15 +369,19 @@
       <item itemvalue="Node.js.user.js" />
       <item itemvalue="Node.js.UserService.js" />
       <item itemvalue="Node.js.koasessiontest1.js" />
-      <item itemvalue="Node.js.main.js" />
-      <item itemvalue="Node.js.jwtCreat.js" />
       <item itemvalue="Node.js.ttt.js" />
+      <item itemvalue="Node.js.excletojson.js" />
+      <item itemvalue="Node.js.geo.js" />
+      <item itemvalue="Node.js.tag.js" />
+      <item itemvalue="Node.js.testtool.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.testtool.js" />
+        <item itemvalue="Node.js.tag.js" />
+        <item itemvalue="Node.js.excletojson.js" />
+        <item itemvalue="Node.js.geo.js" />
         <item itemvalue="Node.js.ttt.js" />
-        <item itemvalue="Node.js.jwtCreat.js" />
-        <item itemvalue="Node.js.main.js" />
       </list>
     </recent_temporary>
   </component>
@@ -616,7 +407,42 @@
       <workItem from="1544083908437" duration="14725000" />
       <workItem from="1544499148772" duration="28449000" />
       <workItem from="1544613178063" duration="12921000" />
-      <workItem from="1544675727735" duration="34351000" />
+      <workItem from="1544675727735" duration="47842000" />
+      <workItem from="1545185286698" duration="1372000" />
+      <workItem from="1545273879575" duration="1372000" />
+      <workItem from="1545728648832" duration="1335000" />
+      <workItem from="1548149441123" duration="1178000" />
+      <workItem from="1548215450433" duration="3513000" />
+      <workItem from="1548641665224" duration="13000" />
+      <workItem from="1549874480069" duration="3272000" />
+      <workItem from="1551252692513" duration="3189000" />
+      <workItem from="1551690616002" duration="631000" />
+      <workItem from="1552270871498" duration="599000" />
+      <workItem from="1565173003297" duration="3145000" />
+      <workItem from="1565923180713" duration="27000" />
+      <workItem from="1566202320889" duration="1285000" />
+      <workItem from="1566530758777" duration="112000" />
+      <workItem from="1573712828024" duration="5146000" />
+      <workItem from="1574217356941" duration="493000" />
+      <workItem from="1577350253552" duration="2688000" />
+      <workItem from="1577435549356" duration="1982000" />
+      <workItem from="1577800935274" duration="1248000" />
+      <workItem from="1577945396178" duration="505000" />
+      <workItem from="1578303016544" duration="8402000" />
+      <workItem from="1578562482696" duration="1535000" />
+      <workItem from="1579142336616" duration="734000" />
+      <workItem from="1579148176604" duration="1142000" />
+      <workItem from="1579244463617" duration="1413000" />
+      <workItem from="1579247230373" duration="1363000" />
+      <workItem from="1580983242557" duration="1192000" />
+      <workItem from="1581594877864" duration="1445000" />
+      <workItem from="1581925797081" duration="5261000" />
+      <workItem from="1581992493712" duration="249000" />
+      <workItem from="1585904423153" duration="4962000" />
+      <workItem from="1586229012632" duration="2665000" />
+      <workItem from="1586933063120" duration="1783000" />
+      <workItem from="1588134650477" duration="1284000" />
+      <workItem from="1588476665919" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="增加登录和登出的方法">
       <created>1541404819083</created>
@@ -642,407 +468,26 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139835000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="60" y="-1417" width="1670" height="1068" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.117040634" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49910393" weight="0.3557188" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50089604" side_tool="true" weight="0.32253712" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32928476" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32843652" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3976915" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39924434" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32928476" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.117040634" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49910393" weight="0.3557188" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50089604" side_tool="true" weight="0.32253712" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32928476" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32843652" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3976915" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39924434" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32928476" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加登录和登出的方法" />
     <MESSAGE value="koa-session2的测试demo" />
     <MESSAGE value="增加koasession中间件，但是可能并没有这样用" />
     <option name="LAST_COMMIT_MESSAGE" value="增加koasession中间件，但是可能并没有这样用" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logs/access.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/configs/baseConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/middleware/session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/configs/appConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/request.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/microService/course/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="15" selection-start-line="1" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/microService/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/secret/private.key">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/jwtCreat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="92" column="4" lean-forward="true" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/test.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/configs/dbConfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/configs/apiStatusCode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/cryptoLib.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/goods/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/goods.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/isarray/build/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/middleware/errorTrace.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="16" column="74" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/koa-bodyparser/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/pg-native/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3784">
-          <caret line="172" column="25" selection-start-line="172" selection-start-column="25" selection-end-line="172" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/koa-router/lib/layer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/goods/GoodsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/user/UserController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="22" lean-forward="true" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/user/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="1" lean-forward="true" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/user/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/goods/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/koa-router/node_modules/koa-compose/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/shopCar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/order.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/shopCar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="1" lean-forward="true" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/order/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/shopCar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="1" lean-forward="true" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/order/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/goods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/shopCar/ShopCarController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1202">
-          <caret line="9" lean-forward="true" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/http-assert/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/pg/node_modules/pg-pool/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/shopCar/ShopCarService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-996">
-          <caret line="7" column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/user/UserService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/db/db.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/goods/GoodsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409">
-          <caret line="177" column="11" selection-start-line="177" selection-start-column="11" selection-end-line="177" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/order/OrderService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controllers/order/OrderController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="155" column="18" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

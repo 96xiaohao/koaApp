@@ -110,7 +110,25 @@ class OrderService {
             console.error("||Error->> |func:(getOrderbyId) errMessage:||",err);
             throw err
         }
+    }
 
+    /**
+     * 根据订单状态获取订单id，商品id，版本id，和createTime
+     */
+    static async getOrderListBystatus(orderStatus,userId){
+        assert(orderStatus, 400, "orderStatus need !");
+        assert(userId, 400, "userId need!");
+
+        const sql = `select id,"goodsId","versionId","createTime","goodsCount" from "order" where status = '${orderStatus}' and "userId" = '${userId}'`;
+
+        try {
+            const {rows} = await pool.query(sql);
+
+            return rows
+        }catch (err) {
+            console.error("||Error->> |func:(getOrderListBystatus) errMessage:||",err);
+            throw err
+        }
     }
 }
 
